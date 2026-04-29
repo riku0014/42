@@ -158,7 +158,7 @@ class MazeGenerator:
                 queue.append((nx, ny))
 
         return len(seen) == len(walkable)
-
+#######
     def _add_extra_openings(
         self,
         maze: Maze,
